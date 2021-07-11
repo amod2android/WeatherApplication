@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667546602793",
+    "project_id": "weatherapplication-ce5c6",
+    "storage_bucket": "weatherapplication-ce5c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667546602793:android:54f3d258034d024d6abb38",
+        "android_client_info": {
+          "package_name": "com.indianic.weatherapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667546602793-3k8ppfksombjeajtcfqpmm92drj71c24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKe5kuNKDxxbgVlFxIYDy_jb1LOnheTto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667546602793-3k8ppfksombjeajtcfqpmm92drj71c24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
