@@ -20,10 +20,19 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-
+                <TextView
+                    android:id="@+id/textViewAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:textColor="#000"
+                    tools:text="Address" />
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chipToday"
                     android:layout_width="wrap_content"
+                    android:layout_below="@+id/textViewAddress"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="16dp"

@@ -12,6 +12,8 @@ class WeatherInfoScreen : AppCompatActivity() {
     companion object{
         var lat: Double?=null
         var lng: Double?=null
+        var address: String?=null
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +23,7 @@ class WeatherInfoScreen : AppCompatActivity() {
 
         lat=intent.getDoubleExtra("LAT",0.0)
         lng=intent.getDoubleExtra("LNG",0.0)
+        address=intent.getStringExtra("ADD")
 
         val sectionsPagerAdapter = SectionsPagerAdapter(this, supportFragmentManager)
         val viewPager: ViewPager = findViewById(R.id.view_pager)

@@ -22,7 +22,7 @@ class VerifyOtpActivity : AppCompatActivity() {
     private  var forcedForceResendingToken: PhoneAuthProvider.ForceResendingToken?=null
     private lateinit var mCallBacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
     private  var mVerificationId: String?=null
-    private  val TAG="MY_TAG"
+    private  val TAG="VerifyOtpActivity"
     private lateinit var firebaseAuth: FirebaseAuth
     private lateinit  var progressDialog: ProgressDialog
 

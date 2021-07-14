@@ -1,5 +1,6 @@
 package com.indianic.weatherapplication.ui.weather
 
+import android.annotation.SuppressLint
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -45,6 +46,7 @@ class CurrentWeatherFragment : Fragment() {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -54,6 +56,8 @@ class CurrentWeatherFragment : Fragment() {
         application.gerRetroComponent().inject(this)
         getCurrentWeather()
         getWeatherForCast()
+
+        bingding.textViewAddress.text=WeatherInfoScreen.address
         return bingding.rootView
     }
 
