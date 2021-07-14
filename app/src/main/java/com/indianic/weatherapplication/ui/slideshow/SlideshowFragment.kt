@@ -5,15 +5,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.indianic.weatherapplication.R
 import com.indianic.weatherapplication.databinding.FragmentSlideshowBinding
-import com.indianic.weatherapplication.ui.weatherdata.VerifyOtpActivity
+import com.indianic.weatherapplication.VerifyOtpActivity
 
 class SlideshowFragment : Fragment() {
     lateinit var bingding:FragmentSlideshowBinding
@@ -41,7 +38,7 @@ class SlideshowFragment : Fragment() {
     private fun checkUser() {
         val firebaseUser=firebaseAuth.currentUser
         if (firebaseUser!=null){
-            startActivity(Intent(requireActivity(),VerifyOtpActivity::class.java))
+            startActivity(Intent(requireActivity(), VerifyOtpActivity::class.java))
             requireActivity().finish()
         }else{
             val phone=firebaseUser?.phoneNumber

@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
 import com.google.firebase.auth.FirebaseAuth
-import com.indianic.weatherapplication.ui.weatherdata.VerifyOtpActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -32,10 +31,10 @@ class SplashActivity : AppCompatActivity() {
     private fun checkUser() {
         val firebaseUser=firebaseAuth.currentUser
         if (firebaseUser!=null){
-            startActivity(Intent(this,VerifyOtpActivity::class.java))
+            startActivity(Intent(this, VerifyOtpActivity::class.java))
             finish()
         }else{
-            startActivity(Intent(this,VerifyOtpActivity::class.java).putExtra("PHONE",firebaseUser?.phoneNumber))
+            startActivity(Intent(this, VerifyOtpActivity::class.java).putExtra("PHONE",firebaseUser?.phoneNumber))
             finish()
         }
     }

@@ -28,7 +28,7 @@
             android:label="@string/title_activity_weather_info_screen"
             android:theme="@style/Theme.WeatherApplication.NoActionBar" />
         <activity
-            android:name=".ui.weatherdata.VerifyOtpActivity"
+            android:name=".VerifyOtpActivity"
             android:theme="@style/Theme.WeatherApplication.NoActionBar">
 
         </activity>

@@ -1,4 +1,4 @@
-package com.indianic.weatherapplication.ui.weatherdata
+package com.indianic.weatherapplication
 
 import android.app.ProgressDialog
 import android.content.Intent
@@ -12,7 +12,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthOptions
 import com.google.firebase.auth.PhoneAuthProvider
-import com.indianic.weatherapplication.DashBoardActivity
 import com.indianic.weatherapplication.databinding.ActivityVerifyOtpBinding
 import java.util.concurrent.TimeUnit
 
