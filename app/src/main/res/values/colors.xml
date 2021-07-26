@@ -12,4 +12,5 @@
     <color name="mainTextColor">#130E51</color>
     <color name="chipItemBackgroundColor">#1AADA7FE</color>
     <color name="chipTextColor">#5D50FE</color>
+    <color name="transparent_less">#34000000</color>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#f7f7f7"
     android:orientation="vertical"
-    tools:context=".VerifyOtpActivity">
+    tools:context=".ui.VerifyOtpActivity">
 
     <ImageView
 
