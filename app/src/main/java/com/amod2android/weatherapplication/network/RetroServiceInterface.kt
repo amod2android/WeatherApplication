@@ -20,8 +20,4 @@ interface RetroServiceInterface {
         @Query("lon") lng: Double,
         @Query("appid") appid: String): Call<String>
 
-
-
-
-
 }
