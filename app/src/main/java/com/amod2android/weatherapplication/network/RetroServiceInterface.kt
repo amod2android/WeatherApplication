@@ -19,4 +19,9 @@ interface RetroServiceInterface {
         @Query("lat") lat: Double,
         @Query("lon") lng: Double,
         @Query("appid") appid: String): Call<String>
+
+
+
+
+
 }
