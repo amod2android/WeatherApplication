@@ -39,10 +39,6 @@ class RecyclerAdapter(val list: List<RecyclerData>) : RecyclerView.Adapter<Recyc
             textViewMinTemp.text = data.minTemp
             textViewMaxTemp.text = data.maxTemp
 
-
-
-
-
         }
     }
 
